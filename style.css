@@ -1,0 +1,39 @@
+/* adding a background color, font and centering all text */
+head, body, footer {
+  background: lavender;
+  color: purple;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/* ensuring all numbers and bullets are centered as well */
+ul, ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* changing h3 font size */
+h3 {
+  font-size: 18px;
+}
+
+/* changing size of image and making it more round */
+img {
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* changing link colors based on state */
+a:link {
+  color:blue;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover, a:active {
+  color: white;
+}
